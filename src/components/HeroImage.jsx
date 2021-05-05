@@ -37,7 +37,7 @@ const Playground = () => {
         <img
           className={heroImage}
           src={mobileImageUrl}
-          alt="Image of happy customer"
+          alt="Image of passionate staffs"
         />
       </picture>
     </div>

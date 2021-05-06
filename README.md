@@ -26,10 +26,13 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
+<<<<<<< HEAD
 ### Screenshot
 
 ![](./screenshot.png)
 
+=======
+>>>>>>> afffc0228d6ec0ed45ba60b3c4ae9e481c4a1f54
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)

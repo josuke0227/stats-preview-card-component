@@ -31,7 +31,7 @@ const useStyles = makeStyles(({ palette, breakpoints }) => ({
 }));
 
 const Contents = () => {
-  const { contentsWrapper, container, layout } = useStyles();
+  const { contentsWrapper, container } = useStyles();
 
   return (
     <div className={container}>

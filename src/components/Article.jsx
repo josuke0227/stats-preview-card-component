@@ -10,13 +10,15 @@ const useStyles = makeStyles(({ palette, breakpoints }) => ({
   },
   headerWrapper: {
     marginBottom: "1.6rem",
-    [breakpoints.up("mg")]: {
+    [breakpoints.up("md")]: {
+      fontSize: "3.6rem",
+      lineHeight: "4.4rem",
       marginBottom: "2.5rem",
       textAlign: "left",
     },
   },
   bodyWrapper: {
-    [breakpoints.up("mg")]: {
+    [breakpoints.up("md")]: {
       textAlign: "left",
     },
   },

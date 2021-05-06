@@ -32,7 +32,7 @@ const Playground = () => {
         <source
           media="(min-width:960px)"
           type="image/jpg"
-          srcset={desktopImageUrl}
+          srcSet={desktopImageUrl}
         />
         <img
           className={heroImage}

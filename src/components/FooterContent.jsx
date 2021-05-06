@@ -13,8 +13,7 @@ const useStyles = makeStyles(({ breakpoints }) => ({
     marginBottom: 0,
     letterSpacing: "1px",
     [breakpoints.up("md")]: {
-      marginBottom: "2.5rem",
-      textAlign: "center",
+      textAlign: "left",
     },
   },
   bodyWrapper: {
@@ -23,7 +22,7 @@ const useStyles = makeStyles(({ breakpoints }) => ({
     fontSize: "1.6rem",
     fontWeight: 500,
     [breakpoints.up("md")]: {
-      textAlign: "center",
+      textAlign: "left",
     },
   },
 }));

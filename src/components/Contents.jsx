@@ -35,7 +35,7 @@ const useStyles = makeStyles(({ palette, breakpoints }) => ({
     [breakpoints.up("md")]: {
       gridArea: "contents",
       minWidth: "40rem",
-      padding: "3.2rem 9rem 2rem 3.2rem",
+      padding: "3.2rem 9rem 2rem 7.2rem",
       borderRadius: "8px 0 0 8px",
       alignSelf: "stretch",
       display: "flex",

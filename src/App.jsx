@@ -1,5 +1,4 @@
 import Contents from "./components/Contents";
-import Playground from "./Playground";
 
 import theme from "./styles/theme";
 import { ThemeProvider } from "@material-ui/styles";

@@ -9,8 +9,8 @@ const data = [
 
 const Footer = () => (
   <Grid container>
-    {data.map(({ header, body, suffix }) => (
-      <FooterContent header={header} body={body} suffix={suffix} />
+    {data.map(({ header, body, suffix }, index) => (
+      <FooterContent key={index} header={header} body={body} suffix={suffix} />
     ))}
   </Grid>
 );

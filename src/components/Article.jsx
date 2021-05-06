@@ -4,6 +4,9 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles(({ palette, breakpoints }) => ({
   container: {
     marginBottom: "4rem",
+    [breakpoints.up("md")]: {
+      marginBottom: "7rem",
+    },
   },
   headerHighlighted: {
     color: palette.colorAccent,
@@ -24,7 +27,7 @@ const useStyles = makeStyles(({ palette, breakpoints }) => ({
   },
 }));
 
-const Playground = () => {
+const Article = () => {
   const {
     headerWrapper,
     headerHighlighted,
@@ -46,4 +49,4 @@ const Playground = () => {
   );
 };
 
-export default Playground;
+export default Article;

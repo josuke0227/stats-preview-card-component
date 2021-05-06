@@ -49,10 +49,10 @@ const Contents = () => {
 
   return (
     <Grid container className={container}>
-      <Grid xs={12}>
+      <Grid item xs={12}>
         <HeroImage />
       </Grid>
-      <Grid xs={12} className={contentsWrapper}>
+      <Grid item xs={12} className={contentsWrapper}>
         <div>
           <Article />
           <Footer />
